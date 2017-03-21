@@ -34,7 +34,7 @@ public class HomeController {
 
         long count = mongo.getCollection("test3").count();
         coutttt++;
-        System.out.println("countttxxxx: "+coutttt);
+        System.out.println("countt: "+coutttt);
         System.out.println("count: "+count);
 //        多个条件组合查询时：
 //        例如：onumber="002" and cname="zcy"
